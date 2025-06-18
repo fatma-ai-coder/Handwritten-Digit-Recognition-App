@@ -22,7 +22,8 @@ def load_weights(model, weights_path):
         print(f"Error loading model weights: {e}")
 
 # Define the path to the saved weights file
-weights_path = 'path/to/weights.h5'
+weights_path = 'weights.h5'
+
 
 # Build the model
 model = build_model()
